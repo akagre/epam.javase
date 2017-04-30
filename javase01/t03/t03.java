@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class t03 {
     public static void main(String[] args) {   
         Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int b = in.nextInt();
-        double h = in.nextDouble();
+        int a = in.nextInt(); //left end
+        int b = in.nextInt(); //right end
+        double h = in.nextDouble(); //step
         int n = (int)((b-a)/h) + 1;
         double x[]  = new double [n];
         double y[]  = new double [n];

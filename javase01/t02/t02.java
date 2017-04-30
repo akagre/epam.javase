@@ -4,7 +4,6 @@ public class t02 {
     public static final double EPS = 1e-6;
 
     public static void main(String[] args) {   
- //       System.out.println(0.000002==EPS);
         int n = 1;
         while (1/Math.pow((n+1),2)>EPS){
             n++;
